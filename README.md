@@ -56,4 +56,4 @@ Cybersecurity portfolio focused on SOC analysis, detection engineering, vulnerab
 
 ## Contact
 - Email: farhanshafee@outlook.com
-- LinkedIn: (add link)
+- LinkedIn: www.linkedin.com/in/farhanshafee
