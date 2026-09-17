@@ -1,55 +1,48 @@
 # Farhan Shafee
 
-Security Automation | Vulnerability Management | Application Security
+**Security Engineering × AI Automation × Fintech Systems**
 
-I bring a professional background in software and test automation for financial technology systems. My cybersecurity engineering portfolio applies Python, CI/CD and automated testing to security workflows: evaluating findings, validating remediation and testing detections. I can demonstrate each flagship system live with a reproducible walkthrough.
+I build security and automation systems with explicit evidence boundaries, reproducible validation, and backend/API engineering discipline shaped by professional fintech software and test automation work.
 
-## Featured Security Engineering
+[Portfolio](https://farhan-shafee.com) · [LinkedIn](https://www.linkedin.com/in/farhanshafee/) · [Technical writing](https://farhan-shafee.com/writing)
 
-### [SecurePay — Application Security / DevSecOps](https://github.com/farhan-shafee/devsecops-pipeline)
+## Flagship work
 
-A synthetic payments API with finding normalization, a deterministic security policy engine and fail-closed handling of missing or invalid scanner evidence. GitHub Actions integrates Semgrep, pip-audit, Gitleaks, Trivy, passive OWASP ZAP and a CycloneDX SBOM.
+### [AegisGraph](https://github.com/farhan-shafee/aegisgraph) — evidence-grounded security investigation
 
-The fixture-based demo reproduces **RED/BLOCK → remediation → PASS**, plus a scanner-failure BLOCK. Current real scanner execution returns **[WARN/REVIEW](https://github.com/farhan-shafee/devsecops-pipeline/actions/runs/34161990375)**, requiring human review.
+A synthetic fintech investigation platform that connects normalized telemetry, deterministic detections and incident correlation with bounded AI analysis and server-side evidence validation. The public demo is read-only and uses deterministic analysis for reproducibility; separately recorded OpenAI validation is documented in the repository.
 
-[141 automated tests in CI](https://github.com/farhan-shafee/devsecops-pipeline/actions/runs/34161990404) · [Recorded scanner evidence](https://github.com/farhan-shafee/devsecops-pipeline/blob/main/reports/real-ci/34161489096/README.md) · [Interview walkthrough](https://github.com/farhan-shafee/devsecops-pipeline/blob/main/docs/interview-demo.md)
+[Live demo](https://aegisgraph.farhan-shafee.com) · [Case study](https://farhan-shafee.com/work/aegisgraph) · [Engineering article](https://farhan-shafee.com/writing/building-an-evidence-grounded-ai-security-investigation-system) · [CI](https://github.com/farhan-shafee/aegisgraph/actions/workflows/ci.yml)
 
-### [Vulnerability Management](https://github.com/farhan-shafee/vulnerability-management-project)
+### [CyberBit Solutions](https://cyberbitsolutions.com) — security product and automation
 
-A Python workflow normalizing Trivy JSON, Nessus XML exports and CSV into contextual risk priorities, SLAs and tracked remediation. Closure requires recorded remediation and later matching scan evidence. A real local Trivy dependency-manifest scan records **5 → 0 findings** after a dependency upgrade.
+A security product/business system with public risk checks, human-reviewed reporting, transactional workflows, and supporting automation for small businesses. The personal-site case study focuses on the product architecture and engineering decisions rather than customer or traction claims.
 
-[212 automated tests in CI](https://github.com/farhan-shafee/vulnerability-management-project/actions/runs/34147859541) · [Remediation evidence](https://github.com/farhan-shafee/vulnerability-management-project/blob/main/lab/evidence/manifest.json) · [Interview walkthrough](https://github.com/farhan-shafee/vulnerability-management-project/blob/main/docs/interview-demo.md)
+[Product](https://cyberbitsolutions.com) · [Case study](https://farhan-shafee.com/work/cyberbit-solutions)
 
-### [Detection Engineering](https://github.com/farhan-shafee/detection-engineering-lab)
+## Selected security engineering
 
-**Five Windows detections** using Sigma rules and Python correlation, mapped to MITRE ATT&CK. Deterministic telemetry fixtures support positive and negative detection tests, simulated analyst investigations, dispositions and rule tuning. Optional Wazuh architecture is documented; live deployment is unverified and there are no live Wazuh captures.
+| Project | Focus | Evidence |
+| --- | --- | --- |
+| [SecurePay](https://github.com/farhan-shafee/devsecops-pipeline) | Application security / DevSecOps | Synthetic payments API, deterministic security gates, Semgrep, pip-audit, Gitleaks, Trivy, passive ZAP, SBOM, CI |
+| [Vulnerability Management](https://github.com/farhan-shafee/vulnerability-management-project) | Vulnerability workflow engineering | Trivy/Nessus/CSV normalization, contextual prioritization, SLA tracking, remediation and closure evidence |
+| [Detection Engineering](https://github.com/farhan-shafee/detection-engineering-lab) | Detection and investigation | Sigma/Python detections, deterministic Windows telemetry fixtures, analyst investigation and tuning evidence |
 
-[51 passing fixture assertions](https://github.com/farhan-shafee/detection-engineering-lab/blob/main/reports/demo.md) · [Tuning evidence](https://github.com/farhan-shafee/detection-engineering-lab/blob/main/evidence/tuning/README.md) · [Interview walkthrough](https://github.com/farhan-shafee/detection-engineering-lab/blob/main/docs/interview-demo.md)
+Additional labs: [Cloud Security](https://github.com/farhan-shafee/cloud-security-lab) · [Incident Response](https://github.com/farhan-shafee/incident-response-playbooks) · [Threat Hunting](https://github.com/farhan-shafee/threat-hunting-playbooks)
 
-## Additional Security Labs
+## Engineering focus
 
-- [Cloud Security](https://github.com/farhan-shafee/cloud-security-lab) — Python IAM policy checks, cloud-event analysis and remediation write-ups using sample data.
-- [Incident Response](https://github.com/farhan-shafee/incident-response-playbooks) — Scenario-based response playbooks with evidence, escalation and post-incident review templates.
-- [Threat Hunting](https://github.com/farhan-shafee/threat-hunting-playbooks) — Hypothesis-driven hunts, query examples and investigation summaries using synthetic telemetry.
+- **Security engineering:** detection, investigation, vulnerability workflows, application security, and evidence-backed controls.
+- **AI systems:** bounded context, structured outputs, deterministic validation, failure handling, and human-controlled state changes.
+- **Backend and automation:** Python, FastAPI, TypeScript, Next.js, REST APIs, PostgreSQL, SQLAlchemy, CI/CD, Docker, and automated testing.
+- **Fintech systems:** professional experience with backend financial systems, API/test automation, debugging, release quality, and trading-system workflows.
 
-## Core Capabilities
+## Current proof stack
 
-Demonstrated in the repositories above:
+AegisGraph is the clearest end-to-end example of how I work: a [live system](https://aegisgraph.farhan-shafee.com), [public source](https://github.com/farhan-shafee/aegisgraph), [case study](https://farhan-shafee.com/work/aegisgraph), [CI](https://github.com/farhan-shafee/aegisgraph/actions/workflows/ci.yml), and a detailed article explaining the engineering tradeoffs.
 
-- **Security automation:** Python, API/data processing, deterministic policy engines and automated validation.
-- **Application security / DevSecOps:** SAST, SCA, secret and container scanning, passive DAST, SBOMs and CI/CD security gates.
-- **Vulnerability management:** Scanner export normalization, contextual prioritization, SLAs, remediation tracking and closure evidence.
-- **Detection engineering:** Sigma, Windows telemetry analysis, MITRE ATT&CK mapping, detection tests, triage reasoning and tuning.
-- **Engineering:** Git/GitHub, GitHub Actions, Docker, REST APIs and automated testing across Windows and Linux.
-
-## Engineering Background
-
-Years of professional software/test automation work in fintech underpin my approach to API and backend testing, CI/CD, debugging and release quality. These projects extend that experience into security automation through explicit controls, repeatable tests and evidence that can be inspected.
-
-## Live Interview Walkthroughs
-
-Every flagship repository includes a deterministic screen-share workflow and a documented interview walkthrough, linked above. I can run the workflows and explain the implementation, results and limitations live.
+The broader portfolio is at **[farhan-shafee.com](https://farhan-shafee.com)**.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/farhanshafee/) · [farhanshafee@outlook.com](mailto:farhanshafee@outlook.com)
+[LinkedIn](https://www.linkedin.com/in/farhanshafee/) · [farhan-shafee.com](https://farhan-shafee.com)
