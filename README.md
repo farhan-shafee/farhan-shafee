@@ -32,13 +32,14 @@ A cybersecurity business and product system connecting public security checks wi
 
 ## Selected security engineering
 
-| Project                                                                                       | Engineering evidence                                                                                                     |
-| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| [SecurePay / DevSecOps](https://github.com/farhan-shafee/devsecops-pipeline)                  | Synthetic payments API, deterministic security gates, scanner evidence validation, and repeatable remediation workflows. |
-| [Vulnerability Management](https://github.com/farhan-shafee/vulnerability-management-project) | Scanner-export normalization, contextual prioritization, and remediation closure backed by matching rescan evidence.     |
-| [Detection Engineering](https://github.com/farhan-shafee/detection-engineering-lab)           | Sigma rules, Python correlation, deterministic Windows telemetry fixtures, and simulated analyst investigations.         |
+| Project                                                                                       | Engineering evidence                                                                                                                   |
+| --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| [SecurePay / DevSecOps](https://github.com/farhan-shafee/devsecops-pipeline)                  | Synthetic payments API, deterministic security gates, scanner evidence validation, and repeatable remediation workflows.               |
+| [Detection Engineering](https://github.com/farhan-shafee/detection-engineering-lab)           | Sigma rules, Python correlation, deterministic Windows telemetry fixtures, and simulated analyst investigations.                       |
+| [Vulnerability Management](https://github.com/farhan-shafee/vulnerability-management-project) | Scanner-export normalization, contextual prioritization, and remediation closure backed by matching rescan evidence.                   |
+| [Cloud Security](https://github.com/farhan-shafee/cloud-security-lab)                          | 14 IAM/S3/network/logging controls, six audit-event detections plus bounded correlation, and 17 closures verified by reassessment.     |
 
-Additional labs: [Cloud Security](https://github.com/farhan-shafee/cloud-security-lab) · [Incident Response](https://github.com/farhan-shafee/incident-response-playbooks) · [Threat Hunting](https://github.com/farhan-shafee/threat-hunting-playbooks)
+Additional labs: [Incident Response](https://github.com/farhan-shafee/incident-response-playbooks) · [Threat Hunting](https://github.com/farhan-shafee/threat-hunting-playbooks)
 
 ## Engineering focus
 
