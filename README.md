@@ -13,7 +13,6 @@ My professional background is in fintech software and test automation. I build s
 | Security investigation & AI | **AegisGraph** | [Live demo](https://aegisgraph.farhan-shafee.com) · [Source](https://github.com/farhan-shafee/aegisgraph) |
 | Trading support & MCP | **CreditOps AI** | [Live showcase](https://creditops-ai-showcase.vercel.app) · Source private |
 | SDET & trading-workflow testing | **TradeFlow** | [Source](https://github.com/farhan-shafee/institutional-trading-sdet-lab) · [Demo guide](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/INTERVIEW_DEMO.md) |
-| Security product engineering | **CyberBit Solutions** | [Product](https://cyberbitsolutions.com) · [Case study](https://farhan-shafee.com/work/cyberbit-solutions) |
 
 ## Selected work
 
@@ -38,10 +37,6 @@ Inspect synthetic order workflows and their **Playwright/TypeScript UI, API, con
 This is a locally run interview and learning project—not a brokerage, matching engine, or live trading platform.
 
 [Test strategy](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/TEST_STRATEGY.md) · [Fixtures](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/FIXTURES.md) · [CI](https://github.com/farhan-shafee/institutional-trading-sdet-lab/actions/workflows/quality.yml)
-
-### CyberBit Solutions — Security product engineering
-
-Security assessment and reporting workflows connecting public checks, admin/report tooling, Stripe checkout and webhooks, paid-report access, and transactional email. Human-reviewed assessments remain distinct from automated reports.
 
 ## Supporting security work
 
