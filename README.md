@@ -4,56 +4,60 @@
 
 My professional background is in fintech software and test automation. I build security and automation systems with the same focus on backend/API behavior, reproducible validation, and evidence that can be inspected.
 
-[Portfolio](https://farhan-shafee.com) · [GitHub](https://github.com/farhan-shafee) · [LinkedIn](https://www.linkedin.com/in/farhanshafee/) · [Technical writing](https://farhan-shafee.com/writing)
+[Portfolio](https://farhan-shafee.com) · [LinkedIn](https://www.linkedin.com/in/farhanshafee/) · [Technical writing](https://farhan-shafee.com/writing) · [Contact](https://farhan-shafee.com/contact)
 
-## Flagship work
+## Start here
 
-### AegisGraph V2 — Security Investigation Engineering
+| Explore | Project | Open |
+| --- | --- | --- |
+| Security investigation & AI | **AegisGraph** | [Live demo](https://aegisgraph.farhan-shafee.com) · [Source](https://github.com/farhan-shafee/aegisgraph) |
+| Trading support & MCP | **CreditOps AI** | [Live showcase](https://creditops-ai-showcase.vercel.app) · Source private |
+| SDET & trading-workflow testing | **TradeFlow** | [Source](https://github.com/farhan-shafee/institutional-trading-sdet-lab) · [Demo guide](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/INTERVIEW_DEMO.md) |
+| Security product engineering | **CyberBit Solutions** | [Product](https://cyberbitsolutions.com) · [Case study](https://farhan-shafee.com/work/cyberbit-solutions) |
 
-A security investigation platform for synthetic fintech telemetry, connecting scenario replay, deterministic detection and correlation, hypothesis tracking, and evidence-grounded AI.
+## Selected work
 
-[Live demo](https://aegisgraph.farhan-shafee.com) · [Case study](https://farhan-shafee.com/work/aegisgraph) · [Source](https://github.com/farhan-shafee/aegisgraph) · [Engineering article](https://farhan-shafee.com/writing/building-an-evidence-grounded-ai-security-investigation-system) · [CI](https://github.com/farhan-shafee/aegisgraph/actions/runs/35893999624)
+### AegisGraph — Security investigation engineering
 
-- **Scenario replay:** Eight versioned synthetic scenarios exercise telemetry replay, normalization, deterministic detection, and correlation.
-- **Hypotheses:** Supporting evidence, counterevidence, and missing observations stay separate from an analyst's acceptance.
-- **Bounded AI:** Structured claims pass server-side schema, exact-context citation, and rule-based support checks. Tested unsupported premises return insufficient evidence; the model cannot change case state.
-- **Detection tuning:** Versioned local rule proposals and full-corpus regression with human review; public comparisons use fixed presets.
-- **Evidence export:** SHA-256 verification checks content against an unsigned, replaceable manifest. Hash agreement does not establish authenticity.
+Replay synthetic fintech telemetry, inspect detections and competing hypotheses, compare detection-rule changes, and review evidence-grounded findings. **Python/FastAPI, TypeScript/Next.js, PostgreSQL.**
 
-[Recorded V2 validation — September 23, 2026](https://github.com/farhan-shafee/aegisgraph/blob/main/docs/V2_VALIDATION.md): **670 backend tests · 121 frontend tests · 26 browser tests**. Deterministic suites: **28 original evaluation cases · 145 V2 benchmark cases**. All three CI jobs passed. These evaluation suites use deterministic fixtures; [historical live OpenAI validation](https://github.com/farhan-shafee/aegisgraph/blob/main/docs/evaluations/LIVE_VALIDATION.md) is separate.
+Public analysis is read-only and deterministic; optional live AI and saved analyst workflows are separate local/interview capabilities. Real telemetry ingestion and production identity/tenant controls remain outside the demo.
 
-Public mode is read-only and deterministic; optional OpenAI analysis and persistent analyst workflows remain local/interview capabilities. Production authentication, tenant isolation, and real telemetry ingestion remain future work.
+[Architecture](https://github.com/farhan-shafee/aegisgraph/blob/main/docs/architecture/SYSTEM.md) · [Threat model](https://github.com/farhan-shafee/aegisgraph/blob/main/docs/threat-model/THREAT_MODEL.md) · [Validation](https://github.com/farhan-shafee/aegisgraph/blob/main/docs/VALIDATION.md)
 
-### CyberBit Solutions — Security Product Engineering
+### CreditOps AI — Trading incident investigation
 
-A cybersecurity business and product system connecting public security checks with assessment, reporting, and operations. Human-reviewed Snapshots remain distinct from automated paid Instant Signal Briefs. I built the admin/report tooling, Stripe checkout and webhook handling, paid-report access, and transactional email workflows.
+Explore pricing/Kafka backlog, FIX session instability, and database-pool exhaustion through RFQ/order impact, linked evidence, original-versus-validated assessments, and technical/stakeholder handoffs. **Python/FastAPI, read-only MCP tools, Next.js, PostgreSQL.**
 
-[Product](https://cyberbitsolutions.com) · [Case study](https://farhan-shafee.com/work/cyberbit-solutions)
+The public showcase plays recorded model-assisted investigations using synthetic data, with no new model or MCP diagnostic calls during playback. Fresh MCP diagnostics are a separate mode. The recordings do not demonstrate model-directed follow-ups; initiating causes remain unconfirmed and human review is required. Source remains private.
 
-## Selected security engineering
+### TradeFlow — Institutional-trading SDET lab
 
-| Project                                                                                       | Engineering evidence                                                                                                                   |
-| --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| [SecurePay / DevSecOps](https://github.com/farhan-shafee/devsecops-pipeline)                  | Synthetic payments API, deterministic security gates, scanner evidence validation, and repeatable remediation workflows.               |
-| [Detection Engineering](https://github.com/farhan-shafee/detection-engineering-lab)           | Sigma rules, Python correlation, deterministic Windows telemetry fixtures, and simulated analyst investigations.                       |
-| [Vulnerability Management](https://github.com/farhan-shafee/vulnerability-management-project) | Scanner-export normalization, contextual prioritization, and remediation closure backed by matching rescan evidence.                   |
-| [Cloud Security](https://github.com/farhan-shafee/cloud-security-lab)                          | 14 IAM/S3/network/logging controls, six audit-event detections plus bounded correlation, and 17 closures verified by reassessment.     |
+Inspect synthetic order workflows and their **Playwright/TypeScript UI, API, contract, and integration tests**. Test-scoped fixtures, server-side authorization, runtime/OpenAPI validation, failure traces, and Chromium/Firefox/WebKit coverage make the test strategy visible.
+
+This is a locally run interview and learning project—not a brokerage, matching engine, or live trading platform.
+
+[Test strategy](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/TEST_STRATEGY.md) · [Fixtures](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/FIXTURES.md) · [CI](https://github.com/farhan-shafee/institutional-trading-sdet-lab/actions/workflows/quality.yml)
+
+### CyberBit Solutions — Security product engineering
+
+Security assessment and reporting workflows connecting public checks, admin/report tooling, Stripe checkout and webhooks, paid-report access, and transactional email. Human-reviewed assessments remain distinct from automated reports.
+
+## Supporting security work
+
+| Project | Focus |
+| --- | --- |
+| [SecurePay / DevSecOps](https://github.com/farhan-shafee/devsecops-pipeline) | Synthetic payments API, security gates, scanner evidence, and repeatable remediation. |
+| [Detection Engineering](https://github.com/farhan-shafee/detection-engineering-lab) | Sigma rules, Python correlation, Windows telemetry fixtures, and simulated triage. |
+| [Cloud Security](https://github.com/farhan-shafee/cloud-security-lab) | Synthetic cloud-posture checks, audit-event detection, and reassessment. |
+| [Vulnerability Management](https://github.com/farhan-shafee/vulnerability-management-project) | Scanner normalization, contextual prioritization, and rescan-backed remediation closure. |
 
 Additional labs: [Incident Response](https://github.com/farhan-shafee/incident-response-playbooks) · [Threat Hunting](https://github.com/farhan-shafee/threat-hunting-playbooks)
 
 ## Engineering focus
 
-- **Security:** Detection, investigation, vulnerability workflows, and application-security controls with inspectable evidence.
-- **AI systems:** Bounded context, structured output, deterministic validation, evaluation, and human-controlled state changes.
-- **Backend and delivery:** Python/FastAPI, TypeScript/Next.js, PostgreSQL, REST APIs, Docker, CI/CD, and automated testing.
-- **Fintech:** Backend financial systems, trading workflows, API/test automation, debugging, and release quality.
+Python/FastAPI · TypeScript/Next.js · Node.js · PostgreSQL · REST APIs · Playwright · Docker · CI/CD · Security validation · Human-reviewed AI tooling
 
 ## Technical writing
 
-**[Building an Evidence-Grounded AI Security Investigation System](https://farhan-shafee.com/writing/building-an-evidence-grounded-ai-security-investigation-system)**
-
-An engineering account of AegisGraph's original architecture: separating detection from correlation, bounding model context, validating citations outside the model, and preserving human control.
-
-## Contact
-
-[LinkedIn](https://www.linkedin.com/in/farhanshafee/) · [Portfolio contact](https://farhan-shafee.com/contact)
+[**Building an Evidence-Grounded AI Security Investigation System**](https://farhan-shafee.com/writing/building-an-evidence-grounded-ai-security-investigation-system) — detection versus correlation, bounded model context, citation validation, and human-controlled decisions.
