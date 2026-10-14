@@ -11,7 +11,7 @@ My professional background is in fintech software and test automation. I build s
 | Explore | Project | Open |
 | --- | --- | --- |
 | Security investigation & AI | **AegisGraph** | [Live demo](https://aegisgraph.farhan-shafee.com) · [Source](https://github.com/farhan-shafee/aegisgraph) |
-| Trading support & MCP | **CreditOps AI** | [Live showcase](https://creditops-ai-showcase.vercel.app) · Source private |
+| Trading support & MCP | **CreditOps AI** | [Live showcase](https://creditops.farhan-shafee.com) · Source private |
 | SDET & trading-workflow testing | **TradeFlow** | [Source](https://github.com/farhan-shafee/institutional-trading-sdet-lab) · [Demo guide](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/INTERVIEW_DEMO.md) |
 
 ## Selected work
