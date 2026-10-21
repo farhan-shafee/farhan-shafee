@@ -12,7 +12,7 @@ My professional background is in fintech software and test automation. I build s
 | --- | --- | --- |
 | Security investigation & AI | **AegisGraph** | [Live demo](https://aegisgraph.farhan-shafee.com) · [Source](https://github.com/farhan-shafee/aegisgraph) |
 | Trading support & MCP | **CreditOps AI** | [Live showcase](https://creditops.farhan-shafee.com) · Source private |
-| SDET & trading-workflow testing | **TradeFlow** | [Source](https://github.com/farhan-shafee/institutional-trading-sdet-lab) · [Demo guide](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/INTERVIEW_DEMO.md) |
+| SDET & trading-workflow testing | **TradeFlow** | [Live demo](https://tradeflow.farhan-shafee.com) · [Source](https://github.com/farhan-shafee/institutional-trading-sdet-lab) · [Demo guide](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/INTERVIEW_DEMO.md) |
 | Banking and API quality engineering | **CreditFlow QE** | [Live demo](https://creditflow.farhan-shafee.com) · [Source](https://github.com/farhan-shafee/creditflow-qe) |
 
 ## Selected work
@@ -37,7 +37,7 @@ Inspect synthetic order workflows and their **Playwright/TypeScript UI, API, con
 
 This is a locally run interview and learning project—not a brokerage, matching engine, or live trading platform.
 
-[Test strategy](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/TEST_STRATEGY.md) · [Fixtures](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/FIXTURES.md) · [CI](https://github.com/farhan-shafee/institutional-trading-sdet-lab/actions/workflows/quality.yml)
+[Live demo](https://tradeflow.farhan-shafee.com) · [Test strategy](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/TEST_STRATEGY.md) · [Fixtures](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/FIXTURES.md) · [CI](https://github.com/farhan-shafee/institutional-trading-sdet-lab/actions/workflows/quality.yml)
 
 ### CreditFlow QE — Synthetic banking and test engineering
 
