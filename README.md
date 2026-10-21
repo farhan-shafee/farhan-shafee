@@ -35,7 +35,7 @@ The public showcase plays recorded model-assisted investigations using synthetic
 
 Inspect synthetic order workflows and their **Playwright/TypeScript UI, API, contract, and integration tests**. Test-scoped fixtures, server-side authorization, runtime/OpenAPI validation, failure traces, and Chromium/Firefox/WebKit coverage make the test strategy visible.
 
-This is a locally run interview and learning project—not a brokerage, matching engine, or live trading platform.
+TradeFlow runs locally and has a publicly reachable, bounded synthetic demo. It is an interview and learning project—not a brokerage, matching engine, or live trading platform.
 
 [Live demo](https://tradeflow.farhan-shafee.com) · [Test strategy](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/TEST_STRATEGY.md) · [Fixtures](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/FIXTURES.md) · [CI](https://github.com/farhan-shafee/institutional-trading-sdet-lab/actions/workflows/quality.yml)
 
