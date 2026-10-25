@@ -37,6 +37,8 @@ Inspect synthetic order workflows and their **Playwright/TypeScript UI, API, con
 
 TradeFlow runs locally for development and is independently hosted on Railway behind Cloudflare Tunnel. It has no database; synthetic sessions and orders reset on app restart. It is an interview and learning project—not a brokerage, matching engine, or live trading platform.
 
+October 25, 2026 [dependency maintenance](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/SECURITY_MAINTENANCE_2026-10-25.md) updates Zod, Undici and fast-uri within compatible ranges and adds blocking full/production npm audits. The reviewed patch 265c9e0 was released on Railway after [successful CI](https://github.com/farhan-shafee/institutional-trading-sdet-lab/actions/runs/40214510996), followed by 20 public acceptance checks. Both audits reported zero known findings at validation time; that dated result is not a security guarantee.
+
 [Live demo](https://tradeflow.farhan-shafee.com) · [Test strategy](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/TEST_STRATEGY.md) · [Fixtures](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/FIXTURES.md) · [CI](https://github.com/farhan-shafee/institutional-trading-sdet-lab/actions/workflows/quality.yml)
 
 ### CreditFlow QE — Synthetic banking and test engineering
