@@ -31,15 +31,15 @@ Explore pricing/Kafka backlog, FIX session instability, and database-pool exhaus
 
 The public showcase plays recorded model-assisted investigations using synthetic data, with no new model or MCP diagnostic calls during playback. Fresh MCP diagnostics are a separate mode. The recordings do not demonstrate model-directed follow-ups; initiating causes remain unconfirmed and human review is required. The source is public. Railway hosts the Next.js console, FastAPI API and PostgreSQL, with TLS, a restricted application role and tested off-volume backup recovery.
 
-### TradeFlow — Institutional-trading SDET lab
+### TradeFlow — Synthetic trading SDET and financial verification
 
-Inspect synthetic order workflows and their **Playwright/TypeScript UI, API, contract, and integration tests**. Test-scoped fixtures, server-side authorization, runtime/OpenAPI validation, failure traces, and Chromium/Firefox/WebKit coverage make the test strategy visible.
+Inspect **Playwright/TypeScript UI/API/contract testing, opt-in local PostgreSQL financial workflows, independent Python/SQL verification and bounded FIX tooling**. Main includes fictional bond analytics, dealer RFQ acceptance, controlled order/execution/cancel workflows, historical reconciliation and an explicitly opted-in FIX application SDK.
 
-TradeFlow runs locally for development and is independently hosted on Railway behind Cloudflare Tunnel. It has no database; synthetic sessions and orders reset on app restart. It is an interview and learning project—not a brokerage, matching engine, or live trading platform.
+**Phase 3C0 was accepted and merged November 4 at `f31f6e2`**: a bounded offline session contract with 59 reviewed transcript expectations. Both original main workflows passed on attempt 1. This does not implement a runtime FIX session engine, transport, durable session state or real peer interoperability. [The current source index](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/CURRENT_STATE.md) records the exact checkpoint, counts and remaining boundaries.
 
-October 25, 2026 [dependency maintenance](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/SECURITY_MAINTENANCE_2026-10-25.md) updates Zod, Undici and fast-uri within compatible ranges and adds blocking full/production npm audits. The reviewed patch 265c9e0 was released on Railway after [successful CI](https://github.com/farhan-shafee/institutional-trading-sdet-lab/actions/runs/40214510996), followed by 20 public acceptance checks. Both audits reported zero known findings at validation time; that dated result is not a security guarantee.
+The public Railway/Cloudflare demo is a **separately pinned equities slice at `265c9e0`**, rechecked November 4. It has ephemeral session books and no application database; later local PostgreSQL/FIX milestones were not deployed by their source merges. Every user, quote, order and execution is synthetic. There is no live brokerage, market feed, settlement or real-money P&L claim.
 
-[Live demo](https://tradeflow.farhan-shafee.com) · [Test strategy](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/TEST_STRATEGY.md) · [Fixtures](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/FIXTURES.md) · [CI](https://github.com/farhan-shafee/institutional-trading-sdet-lab/actions/workflows/quality.yml)
+[Live equities demo](https://tradeflow.farhan-shafee.com) · [Source and current evidence](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/CURRENT_STATE.md) · [Test strategy](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/TEST_STRATEGY.md) · [Offline session conformance](https://github.com/farhan-shafee/institutional-trading-sdet-lab/blob/main/docs/FIX44_SESSION.md) · [Main quality checkpoint](https://github.com/farhan-shafee/institutional-trading-sdet-lab/actions/runs/41914340404) · [Main database/workstation checkpoint](https://github.com/farhan-shafee/institutional-trading-sdet-lab/actions/runs/41914340173)
 
 ### CreditFlow QE — Synthetic banking and test engineering
 
